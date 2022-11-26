@@ -1,0 +1,15 @@
+{
+  "name": "coding-challange",
+  "version": "1.0.0",
+  "description": "In this coding challenge I am going to solve 3 JavaScript challenges",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "if else statements",
+    "loops"
+  ],
+  "author": "Grace Aluoch Aloo",
+  "license": "ISC"
+}

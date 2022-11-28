@@ -1,3 +1,4 @@
+//calculations done using chart on https://www.aren.co.ke/payroll/taxrates.htm
 function netSalary(basicSalary,benefits){
     //calculating PAYE using monthly taxable pay on PAYE chart
     let paye;

@@ -1,14 +1,16 @@
 //speed detector
 function speedDetector(speed){
-    let demerit = 1;
-    
+    demerit =Math.floor((speed-70)/5)
+    //start with if else statement
         if (speed <= 70){
             console.log('Ok');
         }
         else if (speed > 70 && speed <= 130) {
-            for (speed = 75;speed<130; speed+=5){
-            console.log ("Demerit: ",demerit)
-            demerit++;
+            //nested for loop inside the if else statement
+            for (speed = speed;speed <= 130; speed +=5 ){
+             console.log (`At speed ${speed} Demerit: `,demerit)
+                 demerit++;
+                 return ('point:',demerit)
             }
         }
         else {
@@ -18,4 +20,4 @@ function speedDetector(speed){
     
 
 }
-speedDetector(135)
+speedDetector(102)

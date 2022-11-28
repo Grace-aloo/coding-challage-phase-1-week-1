@@ -1,6 +1,6 @@
 //TODO: Program that prompts the user to input student marks
 //our variable is grade, below I have defined it.
-let grade = 23;
+function studentGrade (grade){
 if (grade > 79 && grade <= 100){
     console.log ('grade: A')
 } 
@@ -16,4 +16,5 @@ else if(grade >=40 && grade <=49 ){
 else if(grade < 40){
     console.log ('grade: E')
 }
-
+}
+studentGrade(76)

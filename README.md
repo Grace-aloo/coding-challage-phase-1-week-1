@@ -5,7 +5,7 @@
 
 <h2>Project Setup </h2> 
 <h3>Student Grade Generator</h3>
-<p>This challenge has been solved in the index.js file.I have solved it using JavaScript.In this challange, I have used if else statements to represent the different ranges that the grading system has. There are 5 ranges thus I have used 5 if else statements.</p>
+<p>This challenge has been solved in the index.js file.I have solved it using JavaScript.In this challange, I have used if else statements to represent the different ranges that the grading system has. There are 5 ranges thus I have used 5 if else statements.Everything has been enclosed in a function</p>
 <h3>Speed Detector</h3>
 <p>This challenged has been solved in the speed.js file. I created a function and inside the it I used a combination of if else statements and for loops. the for loop has been nested in the if else statement </p>
 <h3>Net Salary Calculator</h3>

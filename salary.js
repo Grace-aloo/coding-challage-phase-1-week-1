@@ -10,10 +10,11 @@ function netSalary(basicSalary,benefits){
     else if(basicSalary > 32333){
         paye = basicSalary*30/100;
     }
+    
     //calculating using old nssf monthly rates on the old rates chart
      nssf = 400;
      //calculating gross salary
-     grossSalary= basicSalary + benefits;
+     let grossSalary= basicSalary + benefits;
      //calculating nhif using if else statements
      let nhif;
     if(grossSalary < 6000){
@@ -68,7 +69,10 @@ function netSalary(basicSalary,benefits){
         nhif = 1700;
     }
     //calculating net salary
-    netsAlary = grossSalary - paye - nssf -nhif;
-    console.log('PAYE: ',paye,'NHIF: ',nhif,'Gross Salary: ',grossSalary,'Net Salary: ',netsAlary)
+    let netsAlary = grossSalary - paye - nssf -nhif;
+    console.log('PAYE: ',paye)
+    console.log('NHIF: ',nhif)
+    console.log('Gross Salary: ',grossSalary)
+    console.log('Net Salary: ',netsAlary)
 }
 netSalary(45000,5000)

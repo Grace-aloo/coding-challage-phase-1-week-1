@@ -13,6 +13,7 @@ function speedDetector(speed){
                  return ('point:',demerit)
             }
         }
+        //for anything above 130
         else {
             console.log ("License suspended")
         }

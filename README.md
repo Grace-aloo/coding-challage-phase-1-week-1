@@ -28,14 +28,14 @@ Clone the repo by using the following:
 
 Change directory to the repo folder: 
 
-cd coding-challange-1-phase-1-week-1
+        cd coding-challange-1-phase-1-week-1
 
 Open it in Visual Studio Code
 
         code .
 
 Or any text editor of your choice</p>
-<h5>Alternative</h5>
+<h3>Alternative</h3>
 <p>On the top right corner of this page there is a button labelled Fork.
 
 Click on that button to fork the repo to your own account.

@@ -37,7 +37,7 @@ Take on the process in Alternative One above.
 
 Remember to replace your username when cloning.
 
-     git clone https://github.com/your-username-here/l1-js-dom.git
+     git clone https://github.com/your-username-here/coding-challange-phase-1-week-1
 
 </p>
 <h3>Running the application</h3>

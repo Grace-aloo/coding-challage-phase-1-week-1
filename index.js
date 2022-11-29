@@ -16,5 +16,6 @@ else if(grade >=40 && grade <=49 ){
 else if(grade < 40){
     console.log ('grade: E')
 }
+return (`Your grade is ${grade}.`)
 }
 studentGrade(76)

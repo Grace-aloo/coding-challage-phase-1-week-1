@@ -4,6 +4,7 @@ function speedDetector(speed){
     //start with if else statement
         if (speed <= 70){
             console.log('Ok');
+            return ('Ok')
         }
         else if (speed > 70 && speed <= 130) {
             //nested for loop inside the if else statement
@@ -16,6 +17,7 @@ function speedDetector(speed){
         //for anything above 130
         else {
             console.log ("License suspended")
+            return('License suspended')
         }
         
     

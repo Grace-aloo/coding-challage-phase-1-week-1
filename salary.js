@@ -71,9 +71,11 @@ function netSalary(basicSalary,benefits){
     }
     //calculating net salary
     let netsAlary = grossSalary - paye - nssf -nhif;
+    
     console.log('PAYE: ',paye)
     console.log('NHIF: ',nhif)
     console.log('Gross Salary: ',grossSalary)
     console.log('Net Salary: ',netsAlary)
+    return (`your net salary is ${netsAlary}`)
 }
 netSalary(45000,5000)
